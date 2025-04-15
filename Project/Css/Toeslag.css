@@ -1,0 +1,115 @@
+/* body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0e0e0e);
+    margin: 100;
+    padding: 20px;
+}
+
+/* hoofdtitel */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* formulier */
+form {
+    background-color: hsl(146.4, 42.7%, 54.1%);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+/* effect formulier */
+form:hover {
+    transform: scale(1.02);
+}
+
+/* Stijl labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Stijl invoervelden */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid hsl(146.4, 42.7%, 54.1%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Focus effect  invoervelden */
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: hsl(146.4, 42.7%, 54.1%);
+    outline: none;
+}
+
+/* Stijl textarea */
+textarea {
+    height: 120px;
+}
+
+/* Stijl knop */
+button {
+    background-color: hsl(146.4, 42.7%, 54.1%);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect knop */
+button:hover {
+<<<<<<< HEAD
+    background-color: hsl(146.4, 42.7%, 54.1%);
+=======
+    background-color: hsl(146.4, 42.7%, 54.1%);;
+>>>>>>> b83e0e9ebc9328049d8475cef68b946b4c5a7b93
+    transform: translateY(-2px);
+}
+
+/* Stijl resultaten */
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #e74c3c;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
